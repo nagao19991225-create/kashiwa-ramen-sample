@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>麺処 かしわ庵 | 柏のラーメン店</title>
+  <meta name="description" content="柏市にある中華そば・ラーメン専門店「麺処 かしわ庵」。営業時間・メニュー・アクセスをまとめた店舗案内ページです。" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600;700&family=Noto+Sans+JP:wght@300;400;500&family=Shippori+Mincho:wght@400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ナビゲーション -->
+  <header class="site-header" id="top">
+    <div class="header-inner">
+      <div class="logo">
+        <span class="logo-ja">麺処</span>
+        <span class="logo-main">かしわ庵</span>
+      </div>
+      <nav class="nav-desktop">
+        <a href="#about">お店について</a>
+        <a href="#menu">メニュー</a>
+        <a href="#gallery">ギャラリー</a>
+        <a href="#info">店舗情報</a>
+        <a href="#access">アクセス</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="メニューを開く">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-nav" id="mobileNav">
+      <a href="#about" class="mobile-nav-link">お店について</a>
+      <a href="#menu" class="mobile-nav-link">メニュー</a>
+      <a href="#gallery" class="mobile-nav-link">ギャラリー</a>
+      <a href="#info" class="mobile-nav-link">店舗情報</a>
+      <a href="#access" class="mobile-nav-link">アクセス</a>
+      <a href="#contact" class="mobile-nav-link">お問い合わせ</a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- 1. ファーストビュー -->
+    <section class="hero" id="hero">
+      <div class="hero-bg">
+        <img src="images/hero-ramen.jpg" alt="香り高い一杯" class="hero-img" onerror="this.style.display='none'" />
+        <div class="hero-overlay"></div>
+        <div class="hero-texture"></div>
+      </div>
+      <div class="hero-content">
+        <p class="hero-label">千葉県柏市 ／ 中華そば</p>
+        <h1 class="hero-title">
+          柏で味わう、<br class="sp-br" />香り高い一杯。
+        </h1>
+        <p class="hero-sub">
+          初めての方にも分かりやすく、メニュー・営業時間・アクセスを<br class="pc-br" />まとめた店舗案内ページ。
+        </p>
+        <div class="hero-buttons">
+          <a href="#menu" class="btn btn-primary">メニューを見る</a>
+          <a href="#access" class="btn btn-outline">アクセスを見る</a>
+        </div>
+      </div>
+      <div class="hero-scroll-hint">
+        <span>SCROLL</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- 2. お店の紹介 -->
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="section-label">ABOUT</div>
+        <h2 class="section-title">初めてのお客様にも伝わる、<br />店舗案内ページ</h2>
+        <div class="about-body">
+          <div class="about-text">
+            <p>
+              麺処 かしわ庵は、柏市にある架空のラーメン店です。<br />
+              このサンプルページでは、飲食店様の魅力や基本情報をスマートフォンで見やすく整理しています。
+            </p>
+            <p>
+              GoogleマップやInstagramから興味を持ったお客様が、来店前に必要な情報を確認しやすくすることを目的としています。
+            </p>
+            <div class="about-badges">
+              <span class="badge">📍 柏駅 徒歩5分</span>
+              <span class="badge">🕐 11:00〜21:00</span>
+              <span class="badge">🈳 火曜定休</span>
+            </div>
+          </div>
+          <div class="about-image-wrap">
+            <div class="about-image">
+              <img src="images/shop-exterior.jpg" alt="店舗外観" onerror="this.parentElement.classList.add('no-img')" />
+              <div class="img-placeholder" aria-hidden="true">
+                <span>🍜</span>
+                <p>店舗外観</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. おすすめメニュー -->
+    <section class="recommend section bg-warm" id="recommend">
+      <div class="container">
+        <div class="section-label">RECOMMEND</div>
+        <h2 class="section-title">おすすめメニュー</h2>
+        <div class="recommend-cards">
+
+          <div class="rec-card">
+            <div class="rec-card-img">
+              <img src="images/menu-ramen.jpg" alt="特製中華そば" onerror="this.parentElement.classList.add('no-img')" />
+              <div class="img-placeholder"><span>🍜</span></div>
+              <div class="rec-badge">人気 No.1</div>
+            </div>
+            <div class="rec-card-body">
+              <h3>特製中華そば</h3>
+              <p>鶏と魚介の旨味を重ねた、看板メニュー。</p>
+              <div class="rec-price">¥<strong>980</strong></div>
+            </div>
+          </div>
+
+          <div class="rec-card">
+            <div class="rec-card-img">
+              <img src="images/menu-ramen.jpg" alt="濃厚煮干しそば" onerror="this.parentElement.classList.add('no-img')" />
+              <div class="img-placeholder"><span>🍥</span></div>
+              <div class="rec-badge">スタッフ推し</div>
+            </div>
+            <div class="rec-card-body">
+              <h3>濃厚煮干しそば</h3>
+              <p>煮干しの香りとコクを楽しめる一杯。</p>
+              <div class="rec-price">¥<strong>900</strong></div>
+            </div>
+          </div>
+
+          <div class="rec-card">
+            <div class="rec-card-img">
+              <img src="images/menu-ramen.jpg" alt="味玉つけ麺" onerror="this.parentElement.classList.add('no-img')" />
+              <div class="img-placeholder"><span>🥚</span></div>
+              <div class="rec-badge">季節限定</div>
+            </div>
+            <div class="rec-card-body">
+              <h3>味玉つけ麺</h3>
+              <p>もちもち麺と濃厚スープが楽しめる人気メニュー。</p>
+              <div class="rec-price">¥<strong>1,050</strong></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. メニュー一覧 -->
+    <section class="menu-list section" id="menu">
+      <div class="container">
+        <div class="section-label">MENU</div>
+        <h2 class="section-title">メニュー一覧</h2>
+        <div class="menu-table-wrap">
+          <table class="menu-table">
+            <thead>
+              <tr>
+                <th>メニュー</th>
+                <th>価格（税込）</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>中華そば</td>
+                <td>¥800</td>
+              </tr>
+              <tr class="highlight">
+                <td>特製中華そば <span class="tag">看板</span></td>
+                <td>¥980</td>
+              </tr>
+              <tr>
+                <td>濃厚煮干しそば</td>
+                <td>¥900</td>
+              </tr>
+              <tr>
+                <td>味玉つけ麺</td>
+                <td>¥1,050</td>
+              </tr>
+              <tr class="side">
+                <td>チャーシュー丼</td>
+                <td>¥350</td>
+              </tr>
+              <tr class="side">
+                <td>和え玉</td>
+                <td>¥250</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="menu-note">※メニュー・価格はサンプルです。実際のものとは異なります。</p>
+      </div>
+    </section>
+
+    <!-- 5. こだわり -->
+    <section class="features section bg-warm" id="features">
+      <div class="container">
+        <div class="section-label">FEATURES</div>
+        <h2 class="section-title">店舗のこだわり</h2>
+        <div class="features-grid">
+
+          <div class="feature-card">
+            <div class="feature-icon">📋</div>
+            <h3>初来店でも分かりやすい情報設計</h3>
+            <p>営業時間・定休日・アクセスをひと目で確認できます。</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">📱</div>
+            <h3>スマホで見やすいデザイン</h3>
+            <p>GoogleマップやSNSから見たお客様にも見やすい構成です。</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">🔗</div>
+            <h3>SNSや予約導線をまとめられる</h3>
+            <p>Instagram、Googleマップ、電話、予約サイトなどへスムーズに誘導できます。</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. ギャラリー -->
+    <section class="gallery section" id="gallery">
+      <div class="container">
+        <div class="section-label">GALLERY</div>
+        <h2 class="section-title">店舗写真</h2>
+        <div class="gallery-grid">
+          <div class="gallery-item large">
+            <img src="images/hero-ramen.jpg" alt="看板ラーメン" onerror="this.parentElement.classList.add('no-img')" />
+            <div class="img-placeholder"><span>🍜</span><p>看板ラーメン</p></div>
+            <div class="gallery-caption">特製中華そば</div>
+          </div>
+          <div class="gallery-item">
+            <img src="images/menu-ramen.jpg" alt="メニュー" onerror="this.parentElement.classList.add('no-img')" />
+            <div class="img-placeholder"><span>📸</span><p>料理写真</p></div>
+            <div class="gallery-caption">煮干しそば</div>
+          </div>
+          <div class="gallery-item">
+            <img src="images/shop-exterior.jpg" alt="店舗外観" onerror="this.parentElement.classList.add('no-img')" />
+            <div class="img-placeholder"><span>🏠</span><p>店舗外観</p></div>
+            <div class="gallery-caption">外観</div>
+          </div>
+          <div class="gallery-item">
+            <img src="images/interior.jpg" alt="店内" onerror="this.parentElement.classList.add('no-img')" />
+            <div class="img-placeholder"><span>🪑</span><p>店内</p></div>
+            <div class="gallery-caption">店内の様子</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. 店舗情報 -->
+    <section class="info section bg-dark" id="info">
+      <div class="container">
+        <div class="section-label light">INFO</div>
+        <h2 class="section-title light">店舗情報</h2>
+        <div class="info-grid">
+          <dl class="info-table">
+            <div class="info-row">
+              <dt>店名</dt>
+              <dd>麺処 かしわ庵</dd>
+            </div>
+            <div class="info-row">
+              <dt>住所</dt>
+              <dd>千葉県柏市〇〇1-2-3</dd>
+            </div>
+            <div class="info-row">
+              <dt>営業時間</dt>
+              <dd>
+                <span class="hours-block">ランチ 11:00〜15:00</span>
+                <span class="hours-block">ディナー 18:00〜21:00</span>
+              </dd>
+            </div>
+            <div class="info-row">
+              <dt>定休日</dt>
+              <dd>火曜日</dd>
+            </div>
+            <div class="info-row">
+              <dt>アクセス</dt>
+              <dd>柏駅から徒歩5分</dd>
+            </div>
+            <div class="info-row">
+              <dt>駐車場</dt>
+              <dd>近隣コインパーキングあり</dd>
+            </div>
+            <div class="info-row">
+              <dt>お支払い</dt>
+              <dd>現金・QRコード決済対応</dd>
+            </div>
+          </dl>
+          <div class="info-visual">
+            <div class="hours-visual">
+              <p class="hours-title">本日の営業</p>
+              <div class="hours-status" id="hoursStatus">
+                <span class="status-dot"></span>
+                <span class="status-text" id="statusText">確認中...</span>
+              </div>
+              <div class="hours-time">
+                <div>🌞 ランチ <strong>11:00〜15:00</strong></div>
+                <div>🌙 ディナー <strong>18:00〜21:00</strong></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. アクセス -->
+    <section class="access section" id="access">
+      <div class="container">
+        <div class="section-label">ACCESS</div>
+        <h2 class="section-title">アクセス</h2>
+        <div class="access-wrap">
+          <div class="map-area">
+            <!-- サンプル用マップエリア -->
+            <div class="map-placeholder">
+              <div class="map-inner">
+                <div class="map-pin">📍</div>
+                <p class="map-name">麺処 かしわ庵</p>
+                <p class="map-addr">千葉県柏市〇〇1-2-3</p>
+                <p class="map-note">※実際の地図はGoogleマップを埋め込みます</p>
+                <a href="https://www.google.com/maps/search/柏駅" target="_blank" rel="noopener" class="btn btn-map">
+                  Googleマップで開く
+                </a>
+              </div>
+              <!-- 疑似マップの背景装飾 -->
+              <div class="map-deco">
+                <div class="map-road h"></div>
+                <div class="map-road v"></div>
+                <div class="map-station">柏駅</div>
+              </div>
+            </div>
+          </div>
+          <div class="access-info">
+            <div class="access-item">
+              <div class="access-icon">🚶</div>
+              <div>
+                <strong>電車でお越しの方</strong>
+                <p>JR常磐線・東武野田線「柏駅」より徒歩5分</p>
+              </div>
+            </div>
+            <div class="access-item">
+              <div class="access-icon">🚗</div>
+              <div>
+                <strong>お車でお越しの方</strong>
+                <p>近隣にコインパーキングがございます。</p>
+              </div>
+            </div>
+            <div class="access-item">
+              <div class="access-icon">🅿️</div>
+              <div>
+                <strong>駐車場</strong>
+                <p>専用駐車場なし（近隣コインパーキングをご利用ください）</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. SNS・お問い合わせ -->
+    <section class="contact section bg-warm" id="contact">
+      <div class="container">
+        <div class="section-label">CONTACT</div>
+        <h2 class="section-title">SNS・お問い合わせ</h2>
+        <p class="contact-sub">最新情報はInstagramで発信中。ご来店前にぜひご確認ください。</p>
+        <div class="contact-buttons">
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener" class="btn-sns instagram">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            Instagramを見る
+          </a>
+          <a href="https://www.google.com/maps/search/柏駅" target="_blank" rel="noopener" class="btn-sns google">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+            Googleマップで見る
+          </a>
+          <a href="tel:00000000000" class="btn-sns tel">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+            電話する
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- フッター -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">
+        <span class="logo-ja">麺処</span>
+        <span class="logo-main">かしわ庵</span>
+      </div>
+      <p class="footer-addr">千葉県柏市〇〇1-2-3　／　火曜定休</p>
+      <p class="footer-sample">このページは飲食店向け店舗紹介ページの制作サンプルです。<br />掲載内容はすべてサンプルであり、実在の店舗ではありません。</p>
+      <p class="footer-copy">&copy; 2025 麺処 かしわ庵 Sample Site</p>
+    </div>
+  </footer>
+
+  <a href="#top" class="scroll-top" id="scrollTop" aria-label="ページトップへ">↑</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
